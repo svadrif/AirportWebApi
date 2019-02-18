@@ -10,6 +10,7 @@ namespace AirportWebApi.Controllers
 
     public class AirportController : Controller
     {
+        // 18.02.2019 18:29
         private DataContext db = new DataContext();
 
         [Produces("application/json")]
